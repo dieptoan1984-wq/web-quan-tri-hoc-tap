@@ -1,0 +1,6 @@
+{
+  "summary":  "Kế hoạch chi tiết kiến trúc và xây dựng website TÂY ĐÔ EDU – Hệ thống dạy học và quản lý kết quả học tập cho GV Diệp Thanh Toàn (THCS Tây Đô). Bao gồm 8 phân hệ chuyên sâu: Trang chủ tổng quan theo mẫu thiết kế thực tế, Quản lý học sinh, Sổ điểm điện tử THCS theo chuẩn Bộ GD&ĐT, Kiểm tra trực tuyến và chấm điểm tự động, Thư viện bài giảng số, 5 Mô phỏng Toán học tương tác trực tiếp (Canvas/SVG), Báo cáo thống kê, Cài đặt & Phân quyền bảo mật.",
+  "updatedAt":  "2026-10-24T16:13:20.078008670Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

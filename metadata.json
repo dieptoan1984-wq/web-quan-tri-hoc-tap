@@ -1,0 +1,6 @@
+{
+  "name": "TÂY ĐÔ EDU - Hệ thống dạy học và quản lý kết quả học tập",
+  "description": "Hệ thống dạy học và quản lý kết quả học tập môn Toán & Tin học dành cho GV. Diệp Thanh Toàn – Trường THCS Tây Đô.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

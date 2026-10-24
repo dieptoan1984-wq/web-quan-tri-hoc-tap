@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy-dark: #082B60;
+    --blue-primary: #1565D8;
+    --blue-tech: #168BFF;
+    --cyan-tech: #24C4E8;
+    --bg-light: #F1F7FF;
+    --success: #16A765;
+    --warning: #F59E0B;
+    --danger: #DC3545;
+    --purple-accent: #7655DF;
+  }
+
+  html, body, button, input, select, textarea, table, th, td, h1, h2, h3, h4, h5, h6, p, span, a, label {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+
+  body {
+    background-color: #F1F7FF;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+/* Custom Scrollbar for clean EdTech UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e2e8f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+/* Print optimizations for Gradebook and Reports */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+  }
+}
